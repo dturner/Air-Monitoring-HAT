@@ -1,3 +1,12 @@
+# DietPi installation instructions
+
+```
+cd /root
+git clone <this repo>
+cd Air-Monitoring-HAT
+./install.sh
+```
+
 # Air Monitoring HAT
 
 SB Components developed the Air Monitor HAT for Raspberry Pi an open-source portable sensor that has the ability to provide the level of quantity of the suspended particulates with their mass.
