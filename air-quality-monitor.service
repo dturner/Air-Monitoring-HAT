@@ -1,0 +1,10 @@
+[Unit]
+Description=Air Quality Monitor Service
+
+[Service]
+WorkingDirectory=/root/Air-Monitoring-HAT
+ExecStart=/usr/bin/python3 /root/Air-Monitoring-HAT/publish_to_mqtt.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
